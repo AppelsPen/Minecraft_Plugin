@@ -1,0 +1,4 @@
+name: DynamicShop
+main: com.brokennetwork.shop.CreateSign
+version: 1.0
+commands:
