@@ -1,6 +1,10 @@
 name: DynamicShop
+description: Dynamic changing Shop depending on Sells or Buys
+author: AppelsPen
 main: com.brokennetwork.shop.Main
 version: 2.0
 commands:
   dshop:
     description: Erstellt ein Schild mit dynamischen Preisen
+    permission: dshop.createsign
+    permission-message: You don't have permissions to use this comment

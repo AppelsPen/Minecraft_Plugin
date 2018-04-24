@@ -107,8 +107,8 @@ public class Event implements Listener {
 					}
 
 					// Minimal Wert fürs kaufen
-					if (buy <= newsell) {
-						buy = newsell;
+					if (buy <= newsell + diff) {
+						buy = newsell + diff;
 					}
 
 					// Runden der doubles
@@ -198,8 +198,8 @@ public class Event implements Listener {
 					}
 
 					// Minimal Wert fürs kaufen
-					if (buy <= newsell) {
-						buy = newsell;
+					if (buy <= newsell + diff) {
+						buy = newsell + diff;
 					}
 
 					// Runden der doubles
