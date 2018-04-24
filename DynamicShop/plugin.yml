@@ -1,4 +1,6 @@
 name: DynamicShop
-main: com.brokennetwork.shop.CreateSign
-version: 1.0
+main: com.brokennetwork.shop.Main
+version: 2.0
 commands:
+  dshop:
+    description: Erstellt ein Schild mit dynamischen Preisen
